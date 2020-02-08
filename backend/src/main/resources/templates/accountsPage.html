@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<table>
+    <thead>
+        <tr>
+           
+            <th> Firstname </th>
+            <th> Lastname </th>
+             <th> Number </th>
+            <th> id </th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${accounts.empty}">
+            <td colspan="2"> No Books Available </td>
+        </tr>
+        <tr th:each="account : ${accounts}">
+            <td><span th:text="${account.firstname}"> Firstname </span></td>
+            <td><span th:text="${account.lastname}"> Lastname </span></td>
+             <td><span th:text="${account.account_number}"> Number </span></td>
+               <td><span th:text="${account.id}"> Id </span></td> 
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

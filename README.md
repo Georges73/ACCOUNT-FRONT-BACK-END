@@ -12,11 +12,11 @@ Elasticsearch 6.2.2
 Angular 8
 Springboot 2.0.1
 
-If you want a large dataset that you want to import into Elasticsearch, use the sample dataset called accounts.json file in the project.
+I used curl to import dataset into Elasticsearch, i've used the sample called accounts.json file in the project.
 
-1. Just use the following Curl command: curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/financial/accounts/_bulk?pretty' --data-binary @accounts.json
-  - financial is the index 
-  - accounts is the type
+1. In order to do so I've just run the following Curl command: curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/financial/accounts/_bulk?pretty' --data-binary @accounts.json
+  - financial represents the index 
+  - accounts represents the type
   That's it.
   
 2. Start the Springboot backend.

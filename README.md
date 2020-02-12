@@ -24,3 +24,4 @@ I used curl to import dataset into Elasticsearch, i've used the sample called ac
   1. start Elasticsearch
   2. Start the Springboot backend.
   3. Start the Angular 8 Frontend.
+  

@@ -1,6 +1,7 @@
 # ACCOUNT-FRONT-BACK-END
 
-This app just shows how autocomplte works with Angular, Springboot Elasticsearchrepository and Elasticsearch 6.X
+This app just shows how autocomplte works with Angular, Springboot Elasticsearchrepository and Elasticsearch 6.X.
+The purpose is to show how autocopmlete search can work in this architecture. 
 This app works perfectly but is still in a draft stage.
 Meaning, it still has some leftovers of the battlefield that it was. 
 So please appologise if it's a bit messy. 

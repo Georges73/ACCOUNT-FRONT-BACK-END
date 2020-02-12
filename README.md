@@ -15,7 +15,8 @@ Springboot 2.0.1
 
 I used curl to import dataset into Elasticsearch, i've used the sample called accounts.json file in the project.
 
- In order to do so I've just run the following Curl command: curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/financial/accounts/_bulk?pretty' --data-binary @accounts.json
+ In order to do so I've just run the following Curl command: 
+ # curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/financial/accounts/_bulk?pretty' --data-binary @accounts.json
   - financial represents the index 
   - accounts represents the type
   That's it.
